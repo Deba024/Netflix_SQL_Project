@@ -114,7 +114,7 @@ FROM netflix
 WHERE
 	date_added >= CURRENT_DATE - INTERVAL '5 years';
 ```
-** Objective:** Retrieve content added to Netflix in the last 5 years.
+**Objective:** Retrieve content added to Netflix in the last 5 years.
 
 ### 7. Find all the movies/TV shows by director 'Rajiv Chilaka'!
 
@@ -125,7 +125,7 @@ SELECT
 FROM netflix
 WHERE director LIKE '%Rajiv Chilaka%';
 ```
-** Objective:** List all content directed by 'Rajiv Chilaka'.
+**Objective:** List all content directed by 'Rajiv Chilaka'.
 
 ### 8. List all TV shows with more than 5 seasons
 
@@ -139,7 +139,7 @@ WHERE
 	AND
 	SPLIT_PART(duration, ' ', 1)::numeric > 5;
 ```
-** Objective:** Identify TV shows with more than 5 seasons.
+**Objective:** Identify TV shows with more than 5 seasons.
 
 ### 9. Count the number of content items in each genre
 
@@ -150,7 +150,7 @@ SELECT
 FROM netflix
 GROUP BY 1;
 ```
-** Objective:** Count the number of content items in each genre.
+**Objective:** Count the number of content items in each genre.
 
 ### 10.Find each year and the average numbers of content release in India on netflix. 
 return top 5 year with highest avg content release!
@@ -166,7 +166,7 @@ FROM netflix
 WHERE country = 'India'
 GROUP BY 1;
 ```
-** Objective:** Calculate and rank years by the average number of content releases by India.
+**Objective:** Calculate and rank years by the average number of content releases by India.
 
 ### 11. List all movies that are documentaries
 
@@ -175,7 +175,7 @@ SELECT * FROM netflix
 WHERE
 	listed_in ILIKE '%documentaries%';
 ```
-** Objective:** Retrieve all movies classified as documentaries.
+**Objective:** Retrieve all movies classified as documentaries.
 
 ### 12. Find all content without a director
 
@@ -184,7 +184,7 @@ SELECT * FROM netflix
 WHERE
 	director IS NULL;
 ```
-** Objective:** List content that does not have a director.
+**Objective:** List content that does not have a director.
 
 ### 13. Find how many movies actor 'Salman Khan' appeared in last 10 years!
 
@@ -195,7 +195,7 @@ WHERE
 	AND 
 	release_year > EXTRACT(YEAR FROM CURRENT_DATE) - 10;
 ```
-** Objective:** Count the number of movies featuring 'Salman Khan' in the last 10 years.
+**Objective:** Count the number of movies featuring 'Salman Khan' in the last 10 years.
 
 ### 14. Find the top 10 actors who have appeared in the highest number of movies produced in India.
 
@@ -209,7 +209,7 @@ GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 10;
 ```
-** Objective:** Identify the top 10 actors with the most appearances in Indian-produced movies.
+**Objective:** Identify the top 10 actors with the most appearances in Indian-produced movies.
 
 ### 15.
 Categorize the content based on the presence of the keywords 'kill' and 'violence' in 
@@ -233,7 +233,7 @@ SELECT
 FROM new_table
 GROUP BY 1;
 ```
-** Objective:** Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
+**Objective:** Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
 
 
 
