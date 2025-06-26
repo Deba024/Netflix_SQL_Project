@@ -245,6 +245,73 @@ GROUP BY 1;
 This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
 
 
+# 📊 Netflix SQL Data Analysis Project
+
+This project explores and analyzes the Netflix dataset using **PostgreSQL** to extract meaningful business insights and trends from the platform's content library.
+
+---
+
+## 🔍 Project Objective
+
+To perform exploratory data analysis (EDA) on Netflix’s catalog to answer key business questions, such as:
+- How has the content trend evolved over the years?
+- Which countries and genres are most prominent?
+- What is the proportion of Movies vs TV Shows?
+- Are there seasonal trends in content addition?
+
+---
+
+## 🛠️ Tools & Skills Used
+
+- **SQL (PostgreSQL)**: Data cleaning, filtering, aggregations, joins, CTEs, window functions
+- **Git/GitHub**: Version control and project sharing
+- **Data Analysis**: Business insight generation from structured data
+
+---
+
+## 📂 Dataset
+
+The dataset was taken from [Kaggle - Netflix Titles Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows), containing details like:
+- `title`, `type`, `release_year`, `date_added`, `country`, `duration`, `genre`, etc.
+
+---
+
+## ✅ Key Insights
+
+- The majority of Netflix’s content is **movies**, but **TV shows** have seen a significant rise since 2018.
+- **United States**, **India**, and **United Kingdom** lead in content contribution.
+- Netflix rapidly expanded its content around **2018–2020**, peaking in **2019**.
+- Certain months, like **July and October**, tend to have more content added.
+
+---
+
+## 📎 SQL Queries Covered
+
+- Top contributing countries
+- Year-over-year content additions
+- Genre popularity by type
+- Average duration trends
+- Filtering based on multiple conditions (e.g., type, country, year)
+
+---
+
+## 🔗 Project Link
+
+Check out the full project and SQL scripts here:  
+👉 [Netflix_SQL_Project](https://github.com/Deba024/Netflix_SQL_Project)
+
+---
+
+## 🤝 Let’s Connect
+
+I'm an aspiring **Data Analyst** with 6+ years of professional experience in technical support and have recently transitioned into analytics through upskilling.
+
+**Looking for opportunities in Data Analytics** where I can contribute with SQL, Python, Excel, and visualization tools like Tableau or Power BI.
+
+Connect with me on [LinkedIn](www.linkedin.com/in/debasis-saha-8b99766a)!
+
+
+
 
 
 
