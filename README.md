@@ -269,12 +269,6 @@ To perform exploratory data analysis (EDA) on Netflix’s catalog to answer key 
 
 ---
 
-## 📂 Dataset
-
-The dataset was taken from [Kaggle - Netflix Titles Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows), containing details like:
-- `title`, `type`, `release_year`, `date_added`, `country`, `duration`, `genre`, etc.
-
----
 
 ## ✅ Key Insights
 
