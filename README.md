@@ -14,3 +14,21 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 ## Dataset
 The data for this project is sourced from the Kaggle dataset:
 * Dataset Link: [(Netflix Dateset)](https://github.com/Deba024/Netflix_SQL_Project/blob/main/netflix_titles.csv)
+
+## Schema
+
+DROP TABLE IF EXISTS netflix;
+CREATE TABLE netflix(
+show_id	VARCHAR(10),
+type VARCHAR(15),
+title VARCHAR(150),
+director VARCHAR(210),
+casts VARCHAR(1000),
+country	VARCHAR(150),
+date_added DATE,
+release_year INT,
+rating VARCHAR(10),
+duration VARCHAR(15),
+listed_in VARCHAR(100),
+description VARCHAR(250)
+);
